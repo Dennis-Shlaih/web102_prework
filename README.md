@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] A search bar that llows users to search for specific games dynamically.
+* [ ] A search bar that allows users to search for specific games dynamically.
 * [ ] A navigation bar to ensure easy access to different sections.
 * [ ] A layout that adapts for mobile devices with flexible containers and optimized element placements.
 * [ ] Game cards that resize properly for different screen sizes.
