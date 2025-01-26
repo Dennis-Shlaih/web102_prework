@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='c:\Users\denni\Videos\Abyssfund Walkthrough.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[c:\Users\denni\Videos\Abyssfund Walkthrough.mp4](https://streamable.com/fu1pka)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Video created with Microsoft Clipchamp
 
