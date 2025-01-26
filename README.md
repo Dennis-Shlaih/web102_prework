@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://streamable.com/fu1pka?src=player-page-share' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/yTfCoBv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Video created with Microsoft Clipchamp
 
