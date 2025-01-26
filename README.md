@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/yTfCoBv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Abyssfund Walkthrough](https://github.com/user-attachments/assets/be8f9c3f-bb3a-4aa6-a930-b3cc86d88697)
 
 Video created with Microsoft Clipchamp
 
