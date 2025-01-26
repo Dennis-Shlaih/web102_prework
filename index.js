@@ -177,3 +177,28 @@ firstGameContainer.appendChild(firstGameText);
 const secondGameText = document.createElement('p');
 secondGameText.innerHTML = `${secondGame.name}`;
 secondGameContainer.appendChild(secondGameText);
+
+// Grab the search elements
+const searchBar = document.getElementById("search-bar");
+const searchBtn = document.getElementById("search-btn");
+
+//function to search for specific game
+function searchGame() {
+    const searchTerm = searchBar.value.toLowerCase();
+    const searchedGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(searchTerm));
+    deleteChildElements(gamesContainer);
+    addGamesToPage(searchedGames);
+}
+
+// Add an event listener to the search button
+searchBtn.addEventListener('click', searchGame);
+
+// function to add hamburger menu
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector("nav ul");
+
+    hamburger.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
+});
