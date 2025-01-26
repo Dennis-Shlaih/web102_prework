@@ -21,6 +21,9 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -40,12 +43,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 .game-img {
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
+    object-fit: cover;
+    height: 200px;
 }
 
 .game-card {
@@ -55,6 +61,15 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.game-card .text-container {
+    flex-grow: 1;
+    overflow: auto; 
 }
 
 .game-card:hover {
